@@ -1,0 +1,236 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "How are you",
+        "Is anyone there?",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "I would like to make a reservation",
+        "Can I book a room?",
+        "I want to make a booking"
+      ],
+      "responses": [
+        "Sure, I only need to know a few details",
+        "Lovely. Let's begin with the reservation"
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "I would like to cancel my booking",
+        "Can I cancel a room?",
+        "I want to make a cancellation",
+        "Cancel a booking"
+      ],
+      "responses": [
+        "Sure, which is your reference number?",
+        "I only need to know the reference number of your booking"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "When do I have to pay?",
+        "Can I pay by card?",
+        "Do you accept cash?",
+        "When is the payment?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "The payment is on arrival. We accept cash and card",
+        "You can pay on arrival by cash or card",
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the hotel located?",
+        "Can you give me the address?",
+        "I want to know the exact location"
+      ],
+      "responses": [
+        "The Hollywood Hotel is located at Vine St, Los Angeles, CA 99999",
+        "You will find us at Vine St, Los Angeles, CA 99999"
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "I would like to contact the marketing department",
+        "I want to speak with someone from sales",
+        "Can I have the email of finance?"
+      ],
+      "responses": [
+        "Sure. To contact with them, send an email to:",
+        "Of course. The email to contact with the department is:"
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "I would like to contact the marketing department",
+        "I want to speak with someone from sales",
+        "Can I have the email of finance?"
+      ],
+      "responses": [
+        "Sure. To contact with them, send an email to:",
+        "Of course. The email to contact with the department is:"
+      ]
+    },
+    {
+      "tag": "sightseeing",
+      "patterns": [
+        "Recommend some tourist attractions",
+        "What are the must-visit places?",
+        "Tell me about local sightseeing spots"
+      ],
+      "responses": [
+        "You should visit the famous landmarks like the Eiffel Tower, the Colosseum, and the Taj Mahal.",
+        "Don't miss out on exploring the local museums, parks, and historic sites.",
+        "I recommend checking out the beautiful beaches, historic sites, and cultural festivals in the area."
+      ]
+    },
+    {
+      "tag": "travel_tips",
+      "patterns": [
+        "Give me some travel tips",
+        "What should I pack for my trip?",
+        "Any travel advice?"
+      ],
+      "responses": [
+        "Pack comfortable clothing, travel adapters, and essential toiletries for your journey.",
+        "Make sure to carry necessary documents, such as your passport and travel insurance.",
+        "Research local customs and learn a few basic phrases in the local language to enhance your travel experience."
+      ]
+    },
+    {
+      "tag": "food_recommendations",
+      "patterns": [
+        "Where can I find good local food?",
+        "Recommend some local dishes",
+        "Tell me about popular restaurants"
+      ],
+      "responses": [
+        "You must try the local street food, it's delicious and authentic.",
+        "Visit the famous restaurants in the area, known for their exquisite cuisine.",
+        "Explore local markets and food stalls to savor the flavors of the region."
+      ]
+    },
+    {
+      "tag": "currency_exchange",
+      "patterns": [
+        "Where can I exchange currency?",
+        "Tell me about currency exchange",
+        "How can I get local currency?"
+      ],
+      "responses": [
+        "Currency exchange services are available at the airport, banks, and exchange bureaus in the area.",
+        "You can easily obtain local currency by visiting currency exchange booths or using ATMs.",
+        "It's advisable to compare exchange rates to get the best value for your money."
+      ]
+    }
+  ]
+}
